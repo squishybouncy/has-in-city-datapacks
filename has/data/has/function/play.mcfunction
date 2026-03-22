@@ -5,7 +5,7 @@ team empty has_seeker
 team empty has_spectator
 team empty has_intermission
 
-execute as @r run team join has_hider @s
+execute as @r run team join has_seeker @s
 execute as @a[team=!has_seeker] run team join has_hider @s
 
 execute if score countdown has_setting matches 1 run effect give @a[team=has_seeker] minecraft:blindness 60 1 true
