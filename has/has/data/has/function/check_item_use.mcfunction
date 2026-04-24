@@ -1,1 +1,0 @@
-execute if score @s useItem > @s useItemLast run function has:handle_item
