@@ -1,2 +1,0 @@
-scoreboard players set @s cd_jump_boost 30
-effect give @s minecraft:jump_boost 3 1 true
